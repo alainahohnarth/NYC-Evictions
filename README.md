@@ -6,4 +6,4 @@ For my first data analysis project using SQL, I analyzed executed residential ev
 
 ### Data Sources
 
-The primary dataset used for this analysis is the TK FILE.csv file, containing NYC Open Data’s Evictions dataset, which lists all executed evictions within the five boroughs reported by New York City Marshals, for the year 2017 - Present. The data fields include Court Index Number, Docket Number, Eviction Address, Executed Date, Residential or Commercial (property type), Borough, Zip Code and other relevant data. 
+The primary dataset used for this analysis is the TK FILE.csv file, containing NYC Open Data’s Evictions dataset, which contains basic data about  executed evictions within the five boroughs reported by New York City Marshals, for the year 2017 - Present. The data fields include but are not limited to Court Index Number, Docket Number, Eviction Address, Executed Date, Residential or Commercial (property type), Borough, and Zip Code.
