@@ -1,8 +1,8 @@
-# NYC-Evictions Analysis
+# NYC Executed Evictions Analysis
 
 ### Project Overview
 
-For my first data analysis project using SQL, I analyzed executed residential evictions in NYC from 2017 to late 2023 using NYC's Open Data Evictions dataset. 
+For my first data analysis project, I analyzed executed residential evictions in NYC from 2017 to late 2023 using NYC's Open Data Evictions dataset. In my analysis, I wanted to identify residential evictions trends before, during, and after COVID-19, identify which borough(s) and zip codes have the highest number of residential evictions, and which months see the highest numbers of evictions.
 
 ### Data Sources
 
