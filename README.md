@@ -12,3 +12,19 @@ The primary dataset used for this analysis is the TK FILE.csv file, containing N
 
 - SQL/BigQuery - Data Analysis
 - Tableau - Data Visualization via two dashboards [Here](https://public.tableau.com/views/NYCResidentialEvictionsOverview/NYCevictionsoverviewdashboard?:language=en-US&:display_count=n&:origin=viz_share_link) and [Here](https://public.tableau.com/views/BronxEvictionsDashboard/Bronxevictionsdashboard?:language=en-US&:display_count=n&:origin=viz_share_link)
+
+### Data Cleaning/Preparation
+
+- Data loading and inspection
+- Data cleaning and formatting
+
+### Exploratory Data Analysis
+
+I explored the evictions data to answer key questions, such as: 
+- What did residential evictions look like before, during, and after COVID-19?
+- Which borough(s) and zip codes have the highest number of residential evictions?
+- Are there specific months of the year that have the highest number of residential evictions?
+
+### Data Analysis
+
+
