@@ -16,7 +16,7 @@ The primary dataset used for this analysis is the TK FILE.csv file, containing N
 ### Data Cleaning/Preparation
 
 - Data loading and inspection
-- Data cleaning
+- Data cleaning, including searching for duplicate values and identifying specific columns that will query distinct eviction records
 
 ### Exploratory Data Analysis
 
@@ -27,4 +27,16 @@ I explored the evictions data to answer key questions, such as:
 
 ### Data Analysis
 
+TK interesting SQL queries
+
+### Results/Findings
+The analysis results are sumarized as follows.
+1. Despite a spike in evictions following the end of the COVID-19 eviction moratorium in early 2022, eviction numbers have remained below the pre-pandemic averages.
+2. Since 2017, Bronx has had the highest number of executed residential evictions each year except for 2021 & 2022, where Brooklyn had the highest. Bronx's residential evictions in 2023 were 66% higher than the City-wide average number of executed residential evictions.
+3. Comparing evictions numbers for the year 2017 to the year 2023, Queens (55.2%) and Bronx (46%) showed the biggest reductions in executed residential evictions. Manhattan showed the lowest reduction in executed residential evictions (22.5%) followed by Staten Island (27.3%).
+
+### Recommendations
+1. TK
+2. TK
+3. TK
 
