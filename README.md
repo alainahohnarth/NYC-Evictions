@@ -16,7 +16,7 @@ The primary dataset used for this analysis is the TK FILE.csv file, containing N
 ### Data Cleaning/Preparation
 
 - Data loading and inspection
-- Data cleaning and formatting
+- Data cleaning
 
 ### Exploratory Data Analysis
 
