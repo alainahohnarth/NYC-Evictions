@@ -36,8 +36,5 @@ The analysis results are sumarized as follows.
 3. Comparing evictions numbers for the year 2017 to the year 2023, Queens (55.2%) and Bronx (46%) showed the biggest reductions in executed residential evictions. Manhattan showed the lowest reduction in executed residential evictions (22.5%) followed by Staten Island (27.3%).
 4. Citywide, January and August are the months with the highest numbers of executed evictions. In the Bronx, it’s January and May.
 
-### Recommendations
-1. TK
-2. TK
-3. TK
-
+### Limitations
+NYC Open Data's Evictions dataset does not include eviction data prior to January 1, 2017. 
