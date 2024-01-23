@@ -1,0 +1,13 @@
+/*
+NYC Evictions Data Exploration 
+*/
+
+--Determine if Court Index Number can be used as unique identifier in dataset
+
+SELECT 
+  Court_Index_Number,
+  COUNT (Court_Index_Number)
+FROM `nyc-eviction-data.NYC_evictions_downloaded_20240102.NYC_evictions`
+GROUP BY
+  Court_Index_Number
+HAVING COUNT (Court_Index_Number) >1;
