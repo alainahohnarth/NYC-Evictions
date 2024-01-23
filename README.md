@@ -16,7 +16,7 @@ The primary dataset used for this analysis is the TK FILE.csv file, containing N
 ### Data Cleaning/Preparation
 
 - Data loading and inspection
-- Data cleaning, including searching for duplicate values and identifying specific columns that will query distinct eviction records
+- Data cleaning, including searching for duplicate values and identifying specific columns that will query distinct eviction records via a temporary table.
 
 ### Exploratory Data Analysis
 
@@ -30,11 +30,13 @@ I explored the evictions data to answer key questions, such as:
 TK interesting SQL queries
 
 ### Results/Findings
-The analysis results are sumarized as follows.
+The analysis results are sumarized as follows:
 1. Despite a spike in evictions following the end of the COVID-19 eviction moratorium in early 2022, eviction numbers have remained below the pre-pandemic averages.
 2. Since 2017, Bronx has had the highest number of executed residential evictions each year except for 2021 & 2022, where Brooklyn had the highest. Bronx's residential evictions in 2023 were 66% higher than the City-wide average number of executed residential evictions.
 3. Comparing evictions numbers for the year 2017 to the year 2023, Queens (55.2%) and Bronx (46%) showed the biggest reductions in executed residential evictions. Manhattan showed the lowest reduction in executed residential evictions (22.5%) followed by Staten Island (27.3%).
 4. Citywide, January and August are the months with the highest numbers of executed evictions. In the Bronx, it’s January and May.
 
 ### Limitations
-NYC Open Data's Evictions dataset does not include eviction data prior to January 1, 2017. 
+The NYC Open Data's Evictions dataset and my analysis have several limitations:
+- The dataset does not include eviction data prior to January 1, 2017, which limits my ability to identify causal relationships in the data, for example, the impact of Universal Access to Counsel.
+- Two large external factors significantly impacted residential eviction activity in NYC: (a) In February of 2017, New York City implimented  Universal Access to Counsel, which guarentees free legal representation to all low-income tenants facing eviction in the City's housing courts and (b) in February of 2020, at the onset of the COVID-19 pandemic, New York State enacted a statement moratorium on any residential or commercial evictions.
