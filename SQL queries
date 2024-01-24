@@ -60,7 +60,7 @@ ORDER BY filings DESC;
 
 --DATA PROCESSING
 
--- Create a temporary table with distinct court index numbers, addresses, executed dates, and boroughs to query dataset without duplicate entries or filings for a single, distinct residential eviction
+-- Create a temporary table with distinct court index number, addresse, executed date, and borough to query dataset without duplicate entries or filings for a single, distinct residential eviction
 
 CREATE TEMP TABLE temp_unique_evictions AS
 SELECT
