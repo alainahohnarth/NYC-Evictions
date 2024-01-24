@@ -2,7 +2,7 @@
 
 ### Project Overview
 
-For my first data analysis project, I analyzed residential evictions in NYC from 2017 to 2023 using NYC's Open Data Evictions dataset. In my analysis, I wanted to identify residential evictions trends before, during, and after COVID-19, identify which borough(s) and zip codes have the highest number of residential evictions, which months see the highest numbers of evictions, and gain an overall better understanding of residential evictions in NYC.
+For my first data analysis project, I analyzed evictions in NYC from 2017 to 2023 using NYC's Open Data Evictions dataset. In my analysis, I wanted to identify residential evictions trends before, during, and after COVID-19, identify which borough(s) and zip codes have the highest number of residential evictions, which months see the highest numbers of evictions, and gain an overall better understanding of residential evictions in NYC. My overall goal with the project is to practice basic SQL queries on a real dataset and create my first dashboard in Tableau.
 
 ### Data Sources
 
@@ -11,7 +11,7 @@ The primary dataset used for this analysis is the Evictions_20240102.csv file, c
 ### Tools
 
 - SQL - Data Analysis in BigQuery
-- Tableau - Data Visualization via two dashboards [Here](https://public.tableau.com/views/cleaned_distinctNYCresevictions/NYCevictionsoverview?:language=en-US&:display_count=n&:origin=viz_share_link) and [Here](https://public.tableau.com/views/2023ExecutedResidentialEvictionsintheBronxNYC/Bronxresevictionsdashboard?:language=en-US&:display_count=n&:origin=viz_share_link)
+- Tableau - Data Visualization via two dashboards, [here](https://public.tableau.com/views/cleaned_distinctNYCresevictions/NYCevictionsoverview?:language=en-US&:display_count=n&:origin=viz_share_link) and [here](https://public.tableau.com/views/2023ExecutedResidentialEvictionsintheBronxNYC/Bronxresevictionsdashboard?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ### Data Cleaning/Preparation
 
@@ -40,4 +40,7 @@ The analysis results are sumarized as follows:
 The NYC Open Data's Evictions dataset and my analysis have several limitations:
 - The dataset does not include eviction data prior to January 1, 2017.
 - Two large external factors significantly impacted residential eviction activity in NYC: (a) In February of 2017, New York City implimented  Universal Access to Counsel, which guarentees free legal representation to all low-income tenants facing eviction in the City's housing courts and (b) in February of 2020, at the onset of the COVID-19 pandemic, New York State enacted a statement moratorium on any residential or commercial evictions.
-- Finally, both rental housing and residential evictions in NYC are incredibly dynamic, constantly changing, and impacted by so many interrelated factors (market fluctuations; development, zoning, and regulatory changes; global events) that it is difficult to pin down cause-and-effect relationships without more detailed data over a longer period of time.
+- Finally, rental housing in NYC incredibly dynamic, constantly changing, and impacted by so many interrelated factors (market fluctuations; development, zoning, and regulatory changes; global events). Likewise, evictions are  (e.g.  that it is difficult to pin down cause-and-effect relationships without more detailed data over a longer period of time. 
+
+## Conclusion
+Overall, this project was great, hands-on practice in learning SQL on a topic I'm passionate about: housing! For me, Tableau has a steep learning curve and I struggled to do seemingly simple things (like manually adjusting the width of a cell!), but I have a much better understanding of the software after creating two dashboards for this project.   
