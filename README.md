@@ -15,8 +15,8 @@ The primary dataset used for this analysis is the TK FILE.csv file, containing N
 
 ### Data Cleaning/Preparation
 
-- Data loading and inspection
-- Data cleaning, including searching for duplicate values and identifying specific columns that will query distinct eviction records via a temporary table.
+- Data loading and inspection: Discovered that all evictions in the dataset include an execution date (i.e. only executed evictions are represented in the dataset, not pending or scheduled executions), distinct evictions are represented multiple times representing multiple court filings, and that there is no column for Scheduled Status (Pending/Scheduled) even though the description of the dataset states there is.
+- Data cleaning: Searching for duplicate values and identifying specific columns that will query distinct eviction records via a temporary table.
 
 ### Exploratory Data Analysis
 
