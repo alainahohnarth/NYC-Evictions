@@ -17,7 +17,19 @@ WHERE
   OR
   BOROUGH IS null OR TRIM(BOROUGH) = '';
 
---Search for duplicates and determine if Court Index Number can be used as unique identifier in dataset via query to determine if more than one address is associated with each Court Index Number
+
+--Search for duplicates in Eviction Address column
+
+SELECT 
+  Eviction_Address,
+  COUNT (Eviction_Address)
+FROM `nyc-eviction-data.NYC_evictions_downloaded_20240102.NYC_evictions`
+GROUP BY
+  Eviction_Address
+HAVING COUNT (Executed_Date) >1;
+
+
+--Search for duplicates in Court Index Number column and determine if the column can be used as unique identifier in dataset via query to determine if more than one address is associated with each Court Index Number
 
 SELECT 
 Court_Index_Number, COUNT(DISTINCT Eviction_Address ) AS distinct_address_count
@@ -41,7 +53,7 @@ HAVING
 
 --DATA PROCESSING
 
--- Create a temporary table with distinct court index numbers, addresses, executed dates, and boroughs
+-- Create a temporary table with distinct court index numbers, addresses, executed dates, and boroughs to query dataset without duplicate entries or filings for a single, distinct residential eviction
 
 CREATE TEMP TABLE temp_unique_evictions AS
 SELECT
