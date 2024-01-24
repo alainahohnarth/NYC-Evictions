@@ -6,7 +6,7 @@ For my first data analysis project, I analyzed evictions in NYC from 2017 to 202
 
 ### Data Sources
 
-The primary dataset used for this analysis is the Evictions_20240102.csv file, containing a download of NYC Open Data’s Evictions dataset on January 2, 2024. The dataset contains basic data about executed evictions within the five boroughs reported by New York City Marshals, for the year 2017 - 2023. The data fields include but are not limited to Court Index Number, Docket Number, Eviction Address, Executed Date, Residential or Commercial (property type), Borough, and Zip Code.
+The primary dataset used for this analysis is the Evictions_20240102.csv file, a download of NYC Open Data’s Evictions complete dataset on January 2, 2024. The dataset contains basic data about executed evictions within the five boroughs reported by New York City Marshals, for the year 2017 - 2023. The data fields include but are not limited to Court Index Number, Docket Number, Eviction Address, Executed Date, Residential or Commercial (property type), Borough, and Zip Code.
 
 ### Tools
 
