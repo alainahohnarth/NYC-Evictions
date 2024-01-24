@@ -3,12 +3,37 @@ NYC Evictions Data Exploration
 */
 
 --DATA CLEANING
---Determine if Court Index Number can be used as unique identifier in dataset via query to determine if more than one address is associated with each Court Index Number
+
+--Search for null or empty values in columns critical for analysis
+
+SELECT *
+FROM `nyc-eviction-data.NYC_evictions_downloaded_20240102.NYC_evictions`
+WHERE
+  Executed_Date IS null
+  OR
+  Eviction_Postcode IS null
+  OR
+  Residential_Commercial IS null or TRIM(Residential_Commercial) = ''
+  OR
+  BOROUGH IS null OR TRIM(BOROUGH) = '';
+
+--Search for duplicates and determine if Court Index Number can be used as unique identifier in dataset via query to determine if more than one address is associated with each Court Index Number
 
 SELECT 
 Court_Index_Number, COUNT(DISTINCT Eviction_Address ) AS distinct_address_count
 FROM `nyc-eviction-data.NYC_evictions_downloaded_20240102.NYC_evictions` 
 GROUP BY
   Court_Index_Number
+HAVING
+  COUNT(DISTINCT Eviction_Address) > 1;
+
+
+--Determine if Execution Date can be used as a unique identifier in the dataset via query to determine if more than one address is associated with each Execution Date
+
+SELECT 
+Executed_Date, COUNT(DISTINCT Eviction_Address ) AS distinct_address_count
+FROM `nyc-eviction-data.NYC_evictions_downloaded_20240102.NYC_evictions` 
+GROUP BY
+  Executed_Date
 HAVING
   COUNT(DISTINCT Eviction_Address) > 1;
