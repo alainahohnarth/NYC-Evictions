@@ -50,6 +50,13 @@ GROUP BY
 HAVING
   COUNT(DISTINCT Eviction_Address) > 1;
 
+--Count of number of filings for associated Court Index Number, Eviction Address, and Executed Date to understand typical count of duplicates 
+
+SELECT 
+COUNT(*)AS filings, Court_Index_Number, Eviction_Address, Executed_Date
+FROM nyc-eviction-data.NYC_evictions_downloaded_20240102.NYC_evictions
+GROUP BY Court_Index_Number, Eviction_Address, Executed_Date, BOROUGH
+ORDER BY filings DESC;
 
 --DATA PROCESSING
 
@@ -65,3 +72,52 @@ FROM
   nyc-eviction-data.NYC_evictions_downloaded_20240102.NYC_evictions
 WHERE
   Residential_Commercial = 'Residential';
+
+
+--DATA ANALYSIS
+
+-- Count the number of unique residential evictions for each borough for each year in the dataset
+SELECT
+  Borough,
+  EXTRACT(YEAR FROM Executed_Date) AS Year,
+  COUNT(*) AS total_unique_residential_evictions
+FROM
+  temp_unique_evictions
+GROUP BY
+  Borough, Year
+ORDER BY
+  Borough, Year;
+
+--Top five zipcodes with the most residential evictions
+SELECT
+  Eviction_Postcode,
+  COUNT(*) AS total_residential_evictions
+FROM
+  temp_unique_evictions
+GROUP BY
+  Eviction_Postcode
+ORDER BY
+  total_residential_evictions DESC
+LIMIT 5;
+
+--Count the number of distinct residential evictions that have occurred in each month of the year to discover which months have the highest number of evictions
+SELECT
+  EXTRACT(MONTH FROM Executed_Date) AS Month,
+  COUNT(*) AS total_unique_residential_evictions
+FROM
+  temp_unique_evictions
+GROUP BY
+  Month
+ORDER BY
+  total_unique_residential_evictions DESC;
+
+--Compare total evictions for 2017 versus 2023
+SELECT
+  EXTRACT(YEAR FROM Executed_Date) AS year,
+  COUNT(*) AS total_evictions
+FROM
+  temp_unique_evictions
+WHERE
+  EXTRACT(YEAR FROM Executed_Date) IN (2017, 2023)
+GROUP BY
+  year;
