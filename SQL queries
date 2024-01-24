@@ -37,3 +37,19 @@ GROUP BY
   Executed_Date
 HAVING
   COUNT(DISTINCT Eviction_Address) > 1;
+
+
+--DATA PROCESSING
+
+-- Create a temporary table with distinct court index numbers, addresses, executed dates, and boroughs
+
+CREATE TEMP TABLE temp_unique_evictions AS
+SELECT
+  DISTINCT Court_Index_Number,
+  Eviction_Address,
+  Executed_Date,
+  Borough
+FROM
+  nyc-eviction-data.NYC_evictions_downloaded_20240102.NYC_evictions
+WHERE
+  Residential_Commercial = 'Residential';
