@@ -2,7 +2,7 @@
 
 ### Project Overview
 
-For my first data analysis project, I analyzed evictions in NYC from 2017 to 2023 using NYC's Open Data Evictions dataset. In my analysis, I wanted to identify residential evictions trends before, during, and after COVID-19, identify which borough(s) and zip codes have the highest number of residential evictions, which months see the highest numbers of evictions, and gain an overall better understanding of residential evictions in NYC. My overall goal with the project is to practice basic SQL queries on a real dataset and create my first dashboard in Tableau.
+For my first data analysis project, I analyzed evictions in NYC from 2017 to 2023 using NYC's Open Data Evictions dataset. In my analysis, I wanted to identify residential evictions trends before, during, and after COVID-19, identify which borough(s) and zip codes have the highest number of residential evictions, which months see the highest numbers of evictions, and gain an overall better understanding of residential evictions in NYC. My overall goal with the project wass to practice basic SQL queries on a real dataset and create my first dashboard in Tableau.
 
 ### Data Sources
 
