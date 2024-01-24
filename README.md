@@ -39,8 +39,13 @@ The analysis results are sumarized as follows:
 ### Limitations
 The NYC Open Data's Evictions dataset and my analysis have several limitations:
 - The dataset does not include eviction data prior to January 1, 2017.
-- Two large external factors significantly impacted residential eviction activity in NYC: (a) In February of 2017, New York City implimented  Universal Access to Counsel, which guarentees free legal representation to all low-income tenants facing eviction in the City's housing courts and (b) in February of 2020, at the onset of the COVID-19 pandemic, New York State enacted a statement moratorium on any residential or commercial evictions.
-- Finally, rental housing in NYC incredibly dynamic, constantly changing, and impacted by so many interrelated factors (market fluctuations; development, zoning, and regulatory changes; global events). Likewise, evictions are impacted by several different interrelated factors including but not limited to financial instability, housing affordability, and the legal and policy environment. (e.g.  that it is difficult to pin down cause-and-effect relationships without more detailed data over a longer period of time. 
+- Three large external factors significantly impacted residential eviction activity in NYC: (a) In February of 2017, New York City implimented  Universal Access to Counsel, which guarentees free legal representation to all low-income tenants facing eviction in the City's housing courts, (b) COVID-19 pandemic, and (c) in February of 2020, at the onset of the COVID-19 pandemic, New York State enacted a statement moratorium on any residential or commercial evictions.
+
+## Insights
+- Although it's clear that residential evictions are trending downwards since 2017, it's difficult to drawn meaningful insights because of the relatively small timeframe combined with the external factors listed above.
+- Rental housing in NYC is also incredibly dynamic, constantly changing, and impacted by several interrelated factors (market fluctuations; development, zoning, and regulatory changes; global events like COVID-19; etc). Likewise, evictions are impacted by several different interrelated factors including but not limited to housing affordability and the legal and policy environment in the area at a particular time.
+
+- Although it's clear what factors make individuals and families more likely to face eviction, it's unclear what the most effective strategies at preventing evictions in the first place.   
 
 ## Conclusion
 Overall, this project provided me with great, hands-on practice in learning SQL on a topic I'm passionate about: housing! Tableau has a steep learning curve (for me, at least) and I struggled to do seemingly simple things (like manually adjusting the width of a cell!), but I now have a much better understanding of the software after creating two dashboards for this project.   
