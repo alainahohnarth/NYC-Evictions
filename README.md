@@ -2,7 +2,7 @@
 
 ### Project Overview
 
-For my first data analysis project, I analyzed executed residential evictions in NYC from 2017 to 2023 using NYC's Open Data Evictions dataset. In my analysis, I wanted to identify residential evictions trends before, during, and after COVID-19, identify which borough(s) and zip codes have the highest number of residential evictions, which months see the highest numbers of evictions, and gain an overall better understanding of residential evictions in NYC.
+For my first data analysis project, I analyzed residential evictions in NYC from 2017 to 2023 using NYC's Open Data Evictions dataset. In my analysis, I wanted to identify residential evictions trends before, during, and after COVID-19, identify which borough(s) and zip codes have the highest number of residential evictions, which months see the highest numbers of evictions, and gain an overall better understanding of residential evictions in NYC.
 
 ### Data Sources
 
