@@ -29,6 +29,7 @@ I explored the eviction data to answer key questions, such as:
 
 Here are a handful of SQL queries used for my analysis of the dataset:
 
+Cleaning query:
 ```sql
 SELECT 
 Court_Index_Number, COUNT(DISTINCT Eviction_Address ) AS distinct_address_count
@@ -39,6 +40,7 @@ HAVING
   COUNT(DISTINCT Eviction_Address) > 1;
 ```
 
+Processing via temporary table: 
 ```sql
 CREATE TEMP TABLE temp_unique_evictions AS
 SELECT
