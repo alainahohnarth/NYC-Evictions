@@ -70,10 +70,10 @@ ORDER BY
 
 ### Results/Findings
 The analysis results are sumarized as follows:
-1. Despite a spike in evictions following the end of the COVID-19 eviction moratorium in early 2022, eviction numbers have remained below the pre-pandemic averages: total evictions in 2023 is 42% lower than the total in 2017.
+1. Despite a spike in evictions following the end of the COVID-19 eviction moratorium in early 2022, eviction numbers have remained below the pre-pandemic averages: the sum of evictions in 2023 is 42% lower than 2017.
 2. Since 2017, Bronx has had the highest number of executed residential evictions each year except for 2021 & 2022, where Brooklyn had the highest. Bronx's residential evictions in 2023 were 66% higher than the City-wide average number of executed residential evictions.
-3. Comparing evictions numbers for the year 2017 to the year 2023, Queens (55.2%) and Bronx (46%) showed the biggest reductions in executed residential evictions, 55.2% and 46%, respectively. Manhattan showed the lowest reduction in executed residential evictions (22.5%) followed by Staten Island (27.3%).
-4. Citywide, January and August are the months with the highest numbers of executed evictions. In the Bronx, it’s January and May.
+3. Comparing evictions numbers for the year 2017 to the year 2023, Queens and Bronx showed the biggest reductions in executed residential evictions at 55.2% and 46%, respectively. Manhattan showed the lowest reduction in executed residential evictions (22.5%) followed by Staten Island (27.3%).
+4. Citywide, January and August are the months with the highest number of executed evictions. In the Bronx, it’s January and May.
 
 ### Limitations
 The NYC Open Data's Evictions dataset and my analysis have several limitations:
@@ -81,10 +81,9 @@ The NYC Open Data's Evictions dataset and my analysis have several limitations:
 - Three large external factors significantly impacted residential eviction activity in NYC: (a) In February of 2017, New York City implimented  Universal Access to Counsel, which guarentees free legal representation to all low-income tenants facing eviction in the City's housing courts, (b) COVID-19 pandemic, and (c) in February of 2020, at the onset of the COVID-19 pandemic, New York State enacted a statement moratorium on any residential or commercial evictions.
 
 ## Insights
-- Although it's clear that residential evictions are trending downwards since 2017, it's difficult to drawn meaningful insights because of the relatively small timeframe combined with the external factors listed above.
-- Rental housing in NYC is also incredibly dynamic, constantly changing, and impacted by several interrelated factors (market fluctuations; development, zoning, and regulatory changes; global events like COVID-19; etc). Likewise, evictions are impacted by several different interrelated factors including but not limited to housing affordability and the legal and policy environment in the area at a particular time.
-
-- Although it's clear what factors make individuals and families more likely to face eviction, it's unclear what the most effective strategies at preventing evictions in the first place.   
+- Although it's clear that residential evictions are trending downwards since 2017, it's difficult to drawn meaningful insights from this dataset because of the relatively small timeframe combined with the external factors listed above.
+- [NYU Furman Center](https://furmancenter.org/research/publications/eyJyZXN1bHRfcGFnZSI6InJlc2VhcmNoXC9wdWJsaWNhdGlvbnMiLCJvcmRlcmJ5X3NvcnQiOiJlbnRyeV9kYXRlfGRlc2MiLCJrZXl3b3JkcyI6ImV2aWN0aW9ucyIsInNob3J0Y3V0IjoiZXlKeVpYTjFiSFJmY0dGblpTSTZJbkpsYzJWaGNtTm9YQzl3ZFdKc2FXTmhkR2x2Ym5NaUxDSnZjbVJsY21KNVgzTnZjblFpT2lKc2IzZGZjMlZoY21Ob1gzTmpiM0psZkdSbGMyTWlMQ0pyWlhsM2IzSmtjeUk2SW1WMmFXTjBhVzl1Y3lKOSJ9) has conducted extensive, rigorous research on evictions in NYC using housing court records and other data to analyze eviction filings versus execution rate, rent amount sought in eviction filings, and the positive impact of Universal Access to Counsel.
+- Evictions are a multivariant issue with crushing consequences for individuals and families and more research and funding is needed to better target resources and preventive services for those most at risk of evictions. 
 
 ## Conclusion
-Overall, this project provided me with great, hands-on practice in learning SQL on a topic I'm passionate about: housing! Tableau has a steep learning curve (for me, at least) and I struggled to do seemingly simple things (like manually adjusting the width of a cell!), but I now have a much better understanding of the software after creating two dashboards for this project.   
+Overall, this project provided me with great, hands-on practice in learning SQL on a topic I'm interested in--housing! Even though it's well known that 80% of data analysis is cleaning, I was still surprised by how much time it took and how essential proper cleaning was to understand the data before attempting to analyze it. For me, Tableau had a steep learning curve and I struggled to do seemingly simple things (like manually adjusting the width of a cell!), but I now have a much better understanding of the software after creating two dashboards for this project. 
