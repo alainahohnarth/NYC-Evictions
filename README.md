@@ -15,8 +15,8 @@ The primary dataset used for this analysis is the Evictions_20240102.csv file, a
 
 ### Data Cleaning/Preparation
 
-- Data loading and inspection: Discovered that all evictions in the dataset include an execution date (i.e. only executed evictions are represented in the dataset, not pending or scheduled executions), distinct evictions are represented multiple times (as a result of multiple court filings by landlords), and that there is no column for Scheduled Status (Pending/Scheduled) even though the description of the dataset states there is.
-- Data preparation: Searched for duplicate values and identified specific columns that will query distinct eviction records. Created a temporary table to query a subset of data (distinct court index numbers, addresses, executed dates ) that will allow analysis of residential evictions. 
+- Data loading and inspection: Discovered that all evictions in the dataset include an execution date and therefore distinct executed evictions are represented multiple times (as a result of multiple court filings by landlords). There is no column for Scheduled Status (Pending/Scheduled) in the dataset even though the description of the dataset states there is.
+- Data preparation: Searched for duplicate values and identified specific columns that will query distinct eviction records. Created a temporary table to query a subset of data (distinct court index numbers, addresses, executed dates ) that will allow analysis of distinct, residential evictions. 
 
 ### Exploratory Data Analysis
 
