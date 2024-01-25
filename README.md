@@ -27,7 +27,12 @@ I explored the eviction data to answer key questions, such as:
 
 ### Data Analysis
 
-TK interesting SQL queries
+Here are a handful of SQL queries used for my analysis of the dataset:
+
+```sql
+SELECT * FROM table1
+WHERE cond = 2;
+```
 
 ### Results/Findings
 The analysis results are sumarized as follows:
