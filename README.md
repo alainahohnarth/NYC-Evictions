@@ -70,9 +70,9 @@ ORDER BY
 
 ### Results/Findings
 The analysis results are sumarized as follows:
-1. Despite a spike in evictions following the end of the COVID-19 eviction moratorium in early 2022, eviction numbers have remained below the pre-pandemic averages: the sum of evictions in 2023 is 42% lower than 2017.
+1. Despite a spike in evictions following the end of the COVID-19 eviction moratorium in early 2022, eviction numbers have remained below the pre-pandemic averages: the sum of evictions in 2023 is 42% lower than in 2017.
 2. Since 2017, Bronx has had the highest number of executed residential evictions each year except for 2021 & 2022, where Brooklyn had the highest. Bronx's residential evictions in 2023 were 66% higher than the City-wide average number of executed residential evictions.
-3. Comparing evictions numbers for the year 2017 to the year 2023, Queens and Bronx showed the biggest reductions in executed residential evictions at 55.2% and 46%, respectively. Manhattan showed the lowest reduction in executed residential evictions (22.5%) followed by Staten Island (27.3%).
+3. Comparing evictions numbers for the year 2017 to the year 2023, Queens and Bronx showed the biggest reductions in executed residential evictions at 55% and 46%, respectively. Manhattan showed the lowest reduction in executed residential evictions (22.5%) followed by Staten Island (27.3%).
 4. Citywide, January and August are the months with the highest number of executed evictions. In the Bronx, it’s January and May.
 
 ### Limitations
