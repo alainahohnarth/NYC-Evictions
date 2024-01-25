@@ -27,7 +27,7 @@ I explored the eviction data to answer key questions, such as:
 
 ### Data Analysis
 
-Here are a handful of SQL queries used for my analysis of the dataset:
+Here are a handful of SQL queries I used during my project:
 
 Cleaning query:
 ```sql
@@ -86,4 +86,4 @@ The NYC Open Data's Evictions dataset and my analysis have several limitations:
 - Evictions are a multivariant issue with crushing consequences for individuals and families and more research and funding is needed to better target resources and preventive services for those most at risk of evictions. 
 
 ## Conclusion
-Overall, this project provided me with great, hands-on practice in learning SQL on a topic I'm interested in--housing! Even though it's well known that 80% of data analysis is cleaning, I was still surprised by how much time it took and how essential proper cleaning was to understand the data before attempting to analyze it. For me, Tableau had a steep learning curve and I struggled to do seemingly simple things (like manually adjusting the width of a cell!), but I now have a much better understanding of the software after creating two dashboards for this project. 
+Overall, I learned a lot completing this project and it provided me with great, hands-on practice in learning SQL on a topic I'm interested in--housing! Even though it's well known that 80% of data analysis is cleaning, I was still surprised by how much time it took and how essential proper cleaning was to understand the data before attempting to analyze it (I learned this the hard way, unfortunately). For me, Tableau had a steep learning curve and I struggled to do seemingly simple things (like manually adjusting the width of a cell!), but after creating two dashbaords, I now have a much better understanding of how the software works. There are several things I would change about this project if I had to do it again, but I'm ready to move on to my next project. Onwards and upwards!
