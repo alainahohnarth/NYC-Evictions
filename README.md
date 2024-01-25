@@ -54,6 +54,19 @@ WHERE
   Residential_Commercial = 'Residential';
 ```
 
+Analysis:
+```sql
+SELECT
+  Borough,
+  EXTRACT(YEAR FROM Executed_Date) AS Year,
+  COUNT(*) AS total_unique_residential_evictions
+FROM
+  temp_unique_evictions
+GROUP BY
+  Borough, Year
+ORDER BY
+  Borough, Year;
+```
 
 ### Results/Findings
 The analysis results are sumarized as follows:
