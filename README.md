@@ -30,9 +30,15 @@ I explored the eviction data to answer key questions, such as:
 Here are a handful of SQL queries used for my analysis of the dataset:
 
 ```sql
-SELECT * FROM table1
-WHERE cond = 2;
+SELECT 
+Court_Index_Number, COUNT(DISTINCT Eviction_Address ) AS distinct_address_count
+FROM `nyc-eviction-data.NYC_evictions_downloaded_20240102.NYC_evictions` 
+GROUP BY
+  Court_Index_Number
+HAVING
+  COUNT(DISTINCT Eviction_Address) > 1;
 ```
+
 
 ### Results/Findings
 The analysis results are sumarized as follows:
