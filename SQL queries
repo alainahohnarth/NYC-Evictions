@@ -58,9 +58,10 @@ FROM nyc-eviction-data.NYC_evictions_downloaded_20240102.NYC_evictions
 GROUP BY Court_Index_Number, Eviction_Address, Executed_Date, BOROUGH
 ORDER BY filings DESC;
 
+
 --DATA PROCESSING
 
--- Create a temporary table with distinct court index number, addresse, executed date, and borough to query dataset without duplicate entries or filings for a single, distinct residential eviction
+-- Create a temporary table with distinct court index number, address, executed date, and borough to query dataset without duplicate entries or filings for a single, distinct residential eviction
 
 CREATE TEMP TABLE temp_unique_evictions AS
 SELECT
