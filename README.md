@@ -39,6 +39,19 @@ HAVING
   COUNT(DISTINCT Eviction_Address) > 1;
 ```
 
+```sql
+CREATE TEMP TABLE temp_unique_evictions AS
+SELECT
+  DISTINCT Court_Index_Number,
+  Eviction_Address,
+  Executed_Date,
+  Borough
+FROM
+  nyc-eviction-data.NYC_evictions_downloaded_20240102.NYC_evictions
+WHERE
+  Residential_Commercial = 'Residential';
+```
+
 
 ### Results/Findings
 The analysis results are sumarized as follows:
